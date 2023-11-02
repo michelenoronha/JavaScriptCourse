@@ -1,0 +1,71 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tabuada</title>
+
+    </head>
+    <body>
+        <h1>Funções - Tabuada</h1>
+    
+        <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+        <button onclick="limparTabuada()">Limpar Tabuada</button>
+        <div id="output"></div>
+    
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+<body>
+    <h1>Funções - Tabuada</h1>
+
+    <button onclick="mostrarTabuada()">Mostrar Tabuada</button>
+    <button onclick="limparTabuada()">Limpar Tabuada</button>
+    <div id="output"></div>
+
+    <script>
+        const output = document.getElementById("output");
+
+        function mostrarTabuada() {
+            // Pedir para o usuário digitar um número
+            const numero = parseFloat(prompt("Digite um número"));
+            
+            for (let i = 0; i,= 1000; i++0 {
+                if(i === 10){
+                    break
+                }
+            }
+            // Limpar conteúdo anterior
+            output.innerHTML = "";
+
+            // Mostrar a tabuada desse número de 1 a 10
+            for (let i = 1; i <= 10; i++) {
+                const resultado = numero * i;
+                output.innerHTML += `${numero} x ${i} = ${resultado} <br>`;
+            }
+
+            // Mostrar a tabuada desse número de 1 a 1000
+            let n = parseFloat(prompt("Digite um número"));
+            let msg = "";
+            for (let i = 1; i <= 1000; i++) {
+                msg += `${n} x ${i} = ${(n * i)} <br>`;
+            }
+            output.innerHTML += msg;
+        }
+
+        function limparTabuada() {
+            // Limpar conteúdo
+            output.innerHTML = "";
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
