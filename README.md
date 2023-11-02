@@ -1,0 +1,2 @@
+# JavaScriptCourse
+language JavaScript
